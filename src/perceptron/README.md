@@ -50,3 +50,4 @@ Onde:
 - $y$: Saída prevista pelo perceptron.
 
 Essa abordagem permite que o perceptron ajuste seus parâmetros para minimizar o erro de classificação em problemas onde os dados são **linearmente separáveis**.
+
