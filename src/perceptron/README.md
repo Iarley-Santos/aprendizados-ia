@@ -7,8 +7,6 @@ Este repositório contém implementações em C++ de um perceptron de camada ún
 O perceptron é um modelo matemático inspirado no funcionamento dos neurônios biológicos, proposto por Frank Rosenblatt em 1958. Em um neurônio biológico, os dendritos recebem sinais elétricos de outros neurônios, processam esses sinais e, se a soma ultrapassar um determinado limiar, o neurônio "dispara" um impulso elétrico. Analogamente, o perceptron recebe múltiplas entradas, cada uma associada a um peso, calcula uma soma ponderada dessas entradas e aplica uma função de ativação para determinar a saída.
 Matematicamente, o funcionamento de um perceptron pode ser descrito da seguinte forma:
 
-![Texto alternativo](caminho/para/imagem.png)
-
 1. **Entradas**: Um vetor de valores de entrada ($$x = [x_1, x_2, ..., x_n]$$).
 2. **Pesos**: Cada entrada possui um peso associado ($$w = [w_1, w_2, ..., w_n]$$).
 3. **Soma ponderada**: Calcula-se a soma ponderada das entradas e adiciona-se um viés ($b$ = bias):
@@ -26,6 +24,11 @@ f(z) = \begin{cases}
 0, & \text{se } z < 0
 \end{cases}
 $$
+
+<div align="center">
+  <img src="images/perceptron.png" alt="Descrição da imagem" width="500"/>
+</div>
+
 
 🔄Durante o treinamento, os pesos e o viés são ajustados iterativamente com base no erro entre a saída prevista e a saída desejada, utilizando a seguinte regra de atualização:
 
